@@ -8,17 +8,17 @@ CARGO ?= cargo
 RUSTFLAGS ?= -g
 
 # this target should build all executables for all tests
-all:
-	@echo "Please set a concrete build command here"
-	false
+#all:
+#	@echo "Please set a concrete build command here"
+#	false
 
 # C example:
 #all:
 #	$(CC) $(CFLAGS) -o nix-build-shell nix-build-shell.c
 
 # C++ example:
-#all:
-#	$(CXX) $(CXXFLAGS) -o nix-build-shell nix-build-shell.cpp
+all:
+	$(CXX) $(CXXFLAGS) -o nix-build-shell nix-build-shell.cpp utils.cpp
 
 # Rust example:
 #all:
