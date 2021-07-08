@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Build",
+      "setup": "",
+      "run": "make all",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": null
+    },
+    {
+      "name": "Basic command",
+      "setup": "",
+      "run": "python3 tests/test_basic_command.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test user namespaces",
+      "setup": "",
+      "run": "python3 tests/test_usernamespace.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test UTS namespace",
+      "setup": "",
+      "run": "python3 tests/test_utsnamespace.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test network namespace",
+      "setup": "",
+      "run": "python3 tests/test_netnamespace.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test mountnamespace",
+      "setup": "",
+      "run": "python3 tests/test_mountnamespace.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test PID/IPC namespaces",
+      "setup": "",
+      "run": "python3 tests/test_pid_ipc_namespace.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
